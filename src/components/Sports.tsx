@@ -1,10 +1,12 @@
+const BASE_URL = import.meta.env.BASE_URL
+
 const sports = [
-  { title: 'Robo Race', img: '/assets/sport-robo-race.jpg' },
-  { title: 'Line Follower', img: '/assets/sport-line-follower.jpg' },
-  { title: 'RC Racing', img: '/assets/sport-rc-racing.jpg' },
-  { title: 'FPV Drone Racing & Aeromodelling', img: '/assets/sport-fpv-drone.jpg' },
-  { title: 'Robo Hockey', img: '/assets/sport-robo-hockey.jpg' },
-  { title: 'Robo War', img: '/assets/sport-robo-war.jpg' },
+  { title: 'Robo Race', img: `${BASE_URL}assets/sport-robo-race.jpg` },
+  { title: 'Line Follower', img: `${BASE_URL}assets/sport-line-follower.jpg` },
+  { title: 'RC Racing', img: `${BASE_URL}assets/sport-rc-racing.jpg` },
+  { title: 'FPV Drone Racing & Aeromodelling', img: `${BASE_URL}assets/sport-fpv-drone.jpg` },
+  { title: 'Robo Hockey', img: `${BASE_URL}assets/sport-robo-hockey.jpg` },
+  { title: 'Robo War', img: `${BASE_URL}assets/sport-robo-war.jpg` },
 ]
 
 function CircuitDecoration() {

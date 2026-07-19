@@ -1,5 +1,7 @@
 import Navbar from './Navbar'
 
+const BASE_URL = import.meta.env.BASE_URL
+
 export default function Hero() {
   return (
     <section id="top" className="relative w-full min-h-[755px] bg-black overflow-hidden">
@@ -7,7 +9,7 @@ export default function Hero() {
 
       <div className="absolute inset-0">
         <img
-          src="/assets/hero-arena.jpg"
+          src={`${BASE_URL}assets/hero-arena.jpg`}
           alt="Two combat robots clash in a sparking arena"
           className="absolute right-0 top-0 h-full w-[78%] object-cover object-center"
         />

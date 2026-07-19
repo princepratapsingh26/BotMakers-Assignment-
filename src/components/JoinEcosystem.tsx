@@ -1,5 +1,7 @@
 import { YoutubeIcon, InstagramIcon, FacebookIcon, TwitterIcon } from './icons'
 
+const BASE_URL = import.meta.env.BASE_URL
+
 const signupCards = [
   { title: 'Become in Judge' },
   { title: 'Volunteer' },
@@ -7,12 +9,12 @@ const signupCards = [
 ]
 
 const sponsors = [
-  { name: 'NIT Delhi', img: '/assets/sponsor-nit-delhi.png' },
-  { name: 'Indian Bit', img: '/assets/sponsor-indian-bit.png' },
-  { name: 'NIT Silchar', img: '/assets/sponsor-nit-silchar.png' },
-  { name: 'Robo Company', tag: 'Delhivery', img: '/assets/sponsor-delhivery.png' },
-  { name: 'IIT Bombay', img: '/assets/sponsor-iit-bombay.png' },
-  { name: 'Robo Company', tag: 'General Robotics', img: '/assets/sponsor-general-robotics.png' },
+  { name: 'NIT Delhi', img: `${BASE_URL}assets/sponsor-nit-delhi.png` },
+  { name: 'Indian Bit', img: `${BASE_URL}assets/sponsor-indian-bit.png` },
+  { name: 'NIT Silchar', img: `${BASE_URL}assets/sponsor-nit-silchar.png` },
+  { name: 'Robo Company', tag: 'Delhivery', img: `${BASE_URL}assets/sponsor-delhivery.png` },
+  { name: 'IIT Bombay', img: `${BASE_URL}assets/sponsor-iit-bombay.png` },
+  { name: 'Robo Company', tag: 'General Robotics', img: `${BASE_URL}assets/sponsor-general-robotics.png` },
 ]
 
 const quickLinksCol1 = ['The Arena', 'Episodes', 'National Rankings', 'Programs', 'Rulebooks']

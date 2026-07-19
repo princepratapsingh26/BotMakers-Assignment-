@@ -1,5 +1,7 @@
 import { MedalIcon, GavelIcon, BriefcaseIcon, LightningIcon, ShieldIcon } from './icons'
 
+const BASE_URL = import.meta.env.BASE_URL
+
 const benefits = [
   {
     icon: MedalIcon,
@@ -61,7 +63,7 @@ export default function WhyRegister() {
 
         <div className="relative rounded-2xl overflow-hidden border border-white/10 bg-ink-900 p-5">
           <img
-            src="/assets/leaderboard-circuit.png"
+            src={`${BASE_URL}assets/leaderboard-circuit.png`}
             alt=""
             className="absolute inset-0 h-full w-full object-cover opacity-25"
           />

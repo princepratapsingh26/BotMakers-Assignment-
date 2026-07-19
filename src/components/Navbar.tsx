@@ -5,12 +5,14 @@ const navLinks = [
   { label: 'Ranks', active: false },
 ]
 
+const BASE_URL = import.meta.env.BASE_URL
+
 export default function Navbar() {
   return (
     <header className="absolute top-0 left-0 right-0 z-30">
       <nav className="max-w-container mx-auto flex items-center justify-between px-6 md:px-10 py-5">
         <a href="#top" className="flex items-center">
-          <img src="/assets/logo.png" alt="BotLeague" className="h-9 md:h-10 w-auto" />
+          <img src={`${BASE_URL}assets/logo.png`} alt="BotLeague" className="h-9 md:h-10 w-auto" />
         </a>
 
         <ul className="hidden md:flex items-center gap-10 font-body font-semibold text-[15px] tracking-wide">
