@@ -11,7 +11,7 @@ export default function Hero() {
         <img
           src={`${BASE_URL}assets/hero-arena.jpg`}
           alt="Two combat robots clash in a sparking arena"
-          className="absolute right-0 top-0 h-full w-[78%] object-cover object-center"
+          className="absolute inset-0 h-full w-full object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black via-black/70 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-black/10" />
