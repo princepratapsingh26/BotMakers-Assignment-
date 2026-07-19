@@ -3,6 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "homepage": "https://princepratapsingh26.github.io/BotMakers-Assignment-",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
